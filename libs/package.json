@@ -1,0 +1,6 @@
+{
+  "name": "@libs",
+  "version": "1.0.0",
+  "description": "DO NOT USE THIS package.json. use root package.json for libs",
+  "packageManager": "pnpm@10.11.0"
+}
