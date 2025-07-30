@@ -4,3 +4,7 @@ export enum DeployEnv {
   DEV = 'dev',
   PROD = 'production',
 }
+
+export enum ServiceName {
+  COMMON = 0,
+}
