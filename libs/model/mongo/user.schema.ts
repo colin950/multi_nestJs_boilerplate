@@ -1,6 +1,6 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 import { Document } from 'mongoose'
-import { UserStatus } from '../constant/enum'
+import { UserStatus } from '../../constant/enum'
 
 @Schema({ collection: 'users' })
 export class User {

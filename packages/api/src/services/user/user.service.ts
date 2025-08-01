@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common'
 
 import { UserRepoService } from '../../repository/user/user.repo.service'
-import { User } from '@libs/model/user.model'
+import { User } from '@libs/model/mongo/user.schema'
 
 @Injectable()
 export class UserService {

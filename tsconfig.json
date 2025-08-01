@@ -20,7 +20,8 @@
     "noFallthroughCasesInSwitch": false,
     "useDefineForClassFields": false,
     "paths": {
-      "@libs/*": ["../../libs/*"]
-    }
+      "@libs/*": ["../../libs/*", "libs/*/index.ts"]
+    },
+    "baseUrl": "."
   }
 }
